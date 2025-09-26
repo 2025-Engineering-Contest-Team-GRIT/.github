@@ -38,12 +38,20 @@
 <br><br>
 
 # 📗 API
+<img width="2650" height="1016" alt="image" src="https://github.com/user-attachments/assets/5cc2df0b-7bd9-4c9c-baa0-5ebb6613abf7" />
+<img width="2650" height="1382" alt="image" src="https://github.com/user-attachments/assets/b134d097-d910-4d38-af5a-3a549b330f7a" />
+<img width="2650" height="1514" alt="image" src="https://github.com/user-attachments/assets/2d24e2ed-1577-43fa-9102-410210c0ad2c" />
+
 <br><br>
 
 # 🛠 ️System Architecture
+<img width="750" height="421" alt="image" src="https://github.com/user-attachments/assets/95e17081-277b-43a9-8782-6d4ed1a4c71d" />
+
 <br><br>
 
 # 🔑 ERD
+<img width="2910" height="1104" alt="image" src="https://github.com/user-attachments/assets/1d4564ff-1159-46c5-ae2f-03c8db572a71" />
+
 <br><br>
 
 # 💻 Tech Stack

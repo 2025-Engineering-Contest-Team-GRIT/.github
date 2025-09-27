@@ -1,5 +1,8 @@
 ### <p align = center> 2025 Engineering Contest Team GRIT <p>
 # 한성 길라잡이
+<p align="center">
+<img width="511.5" height="319.5" alt="image" src="https://github.com/user-attachments/assets/8e592816-a355-4da2-b363-63df0e86b732" />
+</p>
 <br>
 
 ### 배포 링크
@@ -96,7 +99,10 @@ LLM은 이 컨텍스트를 바탕으로 환각(Hallucination) 현상을 최소�
     <tr>
       <td><b>Backend</b></td>
       <td>
+        <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> 
         <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+        <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
+        <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white">
       </td>
     </tr>
     <tr>
@@ -138,15 +144,377 @@ LLM은 이 컨텍스트를 바탕으로 환각(Hallucination) 현상을 최소�
 </div>
 </br>
 
+# 📂 Directory Structure
+<details>
+    <summary>Frontend</summary>
+<pre>
+<code>
+📦Frontend
+ ┣ 📂.git
+ ┃ ┣ 📂hooks
+ ┃ ┃ ┣ 📜applypatch-msg.sample
+ ┃ ┃ ┣ 📜commit-msg.sample
+ ┃ ┃ ┣ 📜fsmonitor-watchman.sample
+ ┃ ┃ ┣ 📜post-update.sample
+ ┃ ┃ ┣ 📜pre-applypatch.sample
+ ┃ ┃ ┣ 📜pre-commit.sample
+ ┃ ┃ ┣ 📜pre-merge-commit.sample
+ ┃ ┃ ┣ 📜pre-push.sample
+ ┃ ┃ ┣ 📜pre-rebase.sample
+ ┃ ┃ ┣ 📜pre-receive.sample
+ ┃ ┃ ┣ 📜prepare-commit-msg.sample
+ ┃ ┃ ┣ 📜push-to-checkout.sample
+ ┃ ┃ ┗ 📜update.sample
+ ┃ ┣ 📂info
+ ┃ ┃ ┗ 📜exclude
+ ┃ ┣ 📂logs
+ ┃ ┃ ┣ 📂refs
+ ┃ ┃ ┃ ┣ 📂heads
+ ┃ ┃ ┃ ┃ ┗ 📜develop
+ ┃ ┃ ┃ ┗ 📂remotes
+ ┃ ┃ ┃ ┃ ┗ 📂origin
+ ┃ ┃ ┃ ┃ ┃ ┗ 📜HEAD
+ ┃ ┃ ┗ 📜HEAD
+ ┃ ┣ 📂objects
+ ┃ ┃ ┣ 📂info
+ ┃ ┃ ┗ 📂pack
+ ┃ ┃ ┃ ┣ 📜pack-3e6ae162964f898e9555f4b541a48afd891d14f7.idx
+ ┃ ┃ ┃ ┗ 📜pack-3e6ae162964f898e9555f4b541a48afd891d14f7.pack
+ ┃ ┣ 📂refs
+ ┃ ┃ ┣ 📂heads
+ ┃ ┃ ┃ ┗ 📜develop
+ ┃ ┃ ┣ 📂remotes
+ ┃ ┃ ┃ ┗ 📂origin
+ ┃ ┃ ┃ ┃ ┗ 📜HEAD
+ ┃ ┃ ┗ 📂tags
+ ┃ ┣ 📜HEAD
+ ┃ ┣ 📜config
+ ┃ ┣ 📜description
+ ┃ ┣ 📜index
+ ┃ ┗ 📜packed-refs
+ ┣ 📂.github
+ ┃ ┣ 📂ISSUE_TEMPLATE
+ ┃ ┃ ┣ 📜📑-문서화.md
+ ┃ ┃ ┣ 📜🔨-버그-해결.md
+ ┃ ┃ ┣ 📜🖌️-퍼블리싱.md
+ ┃ ┃ ┣ 📜🚀-기능-구현.md
+ ┃ ┃ ┣ 📜🧭-환경설정.md
+ ┃ ┃ ┗ 📜🧹-리팩토링.md
+ ┃ ┗ 📜pull_request_template.md
+ ┣ 📂.vscode
+ ┃ ┣ 📜settings.json
+ ┃ ┗ 📜tasks.json
+ ┣ 📂public
+ ┃ ┣ 📜file.svg
+ ┃ ┣ 📜globe.svg
+ ┃ ┣ 📜logo.svg
+ ┃ ┣ 📜next.svg
+ ┃ ┣ 📜vercel.svg
+ ┃ ┗ 📜window.svg
+ ┣ 📂src
+ ┃ ┣ 📂app
+ ┃ ┃ ┣ 📂(app)
+ ┃ ┃ ┃ ┣ 📂completion
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┣ 📂dashboard
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┣ 📂graduation
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┣ 📂roadmap
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┣ 📂simulation
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┣ 📂timetable
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┗ 📜layout.tsx
+ ┃ ┃ ┣ 📂(auth)
+ ┃ ┃ ┃ ┣ 📂login
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┣ 📂onboarding
+ ┃ ┃ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┃ ┗ 📜layout.tsx
+ ┃ ┃ ┣ 📜favicon.ico
+ ┃ ┃ ┣ 📜globals.css
+ ┃ ┃ ┣ 📜layout.tsx
+ ┃ ┃ ┗ 📜page.tsx
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📂client
+ ┃ ┃ ┃ ┣ 📂wrapper
+ ┃ ┃ ┃ ┃ ┣ 📜HeaderClientWrapper.tsx
+ ┃ ┃ ┃ ┃ ┗ 📜LoginClientWrapper.tsx
+ ┃ ┃ ┃ ┣ 📜CompletionPageClient.tsx
+ ┃ ┃ ┃ ┣ 📜DashboardPageClient.tsx
+ ┃ ┃ ┃ ┣ 📜ErrorBoundary.tsx
+ ┃ ┃ ┃ ┣ 📜GraduationPageClient.tsx
+ ┃ ┃ ┃ ┣ 📜Navigation.tsx
+ ┃ ┃ ┃ ┣ 📜RoadmapPageClient.tsx
+ ┃ ┃ ┃ ┣ 📜SimulationPageClient.tsx
+ ┃ ┃ ┃ ┗ 📜TimetablePageClient.tsx
+ ┃ ┃ ┣ 📂server
+ ┃ ┃ ┃ ┗ 📜Layout.tsx
+ ┃ ┃ ┣ 📂views
+ ┃ ┃ ┃ ┣ 📜CompletionStatusView.tsx
+ ┃ ┃ ┃ ┣ 📜DashboardView.tsx
+ ┃ ┃ ┃ ┣ 📜GraduationView.tsx
+ ┃ ┃ ┃ ┣ 📜LoginScreen.tsx
+ ┃ ┃ ┃ ┣ 📜OnboardingScreen.tsx
+ ┃ ┃ ┃ ┣ 📜RoadmapView.tsx
+ ┃ ┃ ┃ ┣ 📜SimulationView.tsx
+ ┃ ┃ ┃ ┣ 📜TimetableView.tsx
+ ┃ ┃ ┃ ┗ 📜index.ts
+ ┃ ┃ ┣ 📜Button.tsx
+ ┃ ┃ ┣ 📜ConfirmationModal.tsx
+ ┃ ┃ ┣ 📜CourseCard.tsx
+ ┃ ┃ ┣ 📜OnboardingRestartModal.tsx
+ ┃ ┃ ┣ 📜PrivacyPolicyModal.tsx
+ ┃ ┃ ┣ 📜ProgressBar.tsx
+ ┃ ┃ ┣ 📜Toast.tsx
+ ┃ ┃ ┣ 📜Toggle.tsx
+ ┃ ┃ ┣ 📜animations.ts
+ ┃ ┃ ┗ 📜common.tsx
+ ┃ ┣ 📂data
+ ┃ ┃ ┗ 📜courseData.ts
+ ┃ ┣ 📂hooks
+ ┃ ┃ ┣ 📜useData.ts
+ ┃ ┃ ┗ 📜useStore.ts
+ ┃ ┣ 📂providers
+ ┃ ┃ ┗ 📜QueryProvider.tsx
+ ┃ ┣ 📂services
+ ┃ ┃ ┣ 📜api.ts
+ ┃ ┃ ┣ 📜authService.ts
+ ┃ ┃ ┗ 📜modifyService.ts
+ ┃ ┣ 📂store
+ ┃ ┃ ┗ 📜index.ts
+ ┃ ┣ 📂styles
+ ┃ ┃ ┗ 📜theme.ts
+ ┃ ┣ 📂views
+ ┃ ┃ ┣ 📜DashboardView.tsx
+ ┃ ┃ ┣ 📜LoginScreen.tsx
+ ┃ ┃ ┗ 📜OnboardingScreen.tsx
+ ┃ ┗ 📜types.ts
+ ┣ 📜.eslintignore
+ ┣ 📜.eslintrc.json
+ ┣ 📜.gitignore
+ ┣ 📜.prettierignore
+ ┣ 📜.prettierrc
+ ┣ 📜README.md
+ ┣ 📜eslint.config.mjs
+ ┣ 📜jest.config.js
+ ┣ 📜jest.setup.js
+ ┣ 📜main.sql
+ ┣ 📜main.vuerd.json
+ ┣ 📜next.config.ts
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┣ 📜postcss.config.mjs
+ ┣ 📜temp.vuerd.json
+ ┗ 📜tsconfig.json
+
+  </code>
+</pre>
+</details>
+
+<details>
+    <summary>Backend</summary>
+<pre>
+<code>
+
+📦src
+ ┣ 📂main
+ ┃ ┣ 📂java
+ ┃ ┃ ┗ 📂grit
+ ┃ ┃ ┃ ┗ 📂guidance
+ ┃ ┃ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂course
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜CourseAdminController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜CourseDataDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜Course.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CoursePrerequisite.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CourseType.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜Semester.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜Track.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜TrackRequirement.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CoursePrerequisiteRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CourseRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TrackRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜TrackRequirementRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📂service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CourseDescriptionCrawlingService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CourseService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TrackRequirementService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜TrackService.java
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂graduation
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜GraduationController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CertificationStatusDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CrawlingGraduationDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DashboardResponseDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DetailedCreditDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜GraduationPlanRequestDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜GraduationResponseDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜TrackProgressDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜CrawlingGraduation.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜CrawlingGraduationRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📂service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜GraduationService.java
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂roadmap
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜RoadmapController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CourseDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CourseRecommendationRequest.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜RoadmapDataDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜RoadmapResponseDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜SearchRequest.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜SemesterDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜RecommendedCourse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜QdrantRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜RecommendedCourseRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📂service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CourseEmbeddingService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜LlmRoadmapService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜RecommendedCourseService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜RoadmapService.java
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂simulation
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜SimulationController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜GraduationPlanRequestDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜SimulationDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜GraduationPlan.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜GraduationPlanCourse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜GraduationPlanCourseRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜GraduationPlanRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📂service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜SimulationService.java
+ ┃ ┃ ┃ ┃ ┃ ┗ 📂user
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CrawlingController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DashboardController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜FavoriteCourseController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜LoginController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TimetableController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UserSyncController.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜AcademicStatusDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CareerGoalDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CourseGradeResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DashboardDataDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DashboardResponseDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ErrorResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜FavoriteCourseRequest.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜FavoriteCourseResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜HansungDataResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜LoginRequest.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜LoginResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MajorCreditDetail.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MajorCreditTotal.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MajorRequiredCreditsResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜NextSemesterCourseDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜SemesterGradeResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TimetableDataDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TimetableDetailDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TimetableEventDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TimetableResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TotalGradeResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserCourseDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserInfoDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserInfoResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserSyncRequestDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UserTrackDto.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂entity
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CompletedCourse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CompletedGrade.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜EnrolledCourse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜FavoriteCourse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜GraduationRequirement.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜Setting.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TrackType.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserTrack.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜Users.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CompletedCourseRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜EnrolledCourseRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜FavoriteCourseRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜GraduationRequirementRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserTrackRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UsersRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📂service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜CrawlingConditionService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DashboardService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜FavoriteCourseService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜LoginService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜TimetableService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserAcademicInfoSyncService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserCourseService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UserDetailsServiceImpl.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UsersCrawlingService.java
+ ┃ ┃ ┃ ┃ ┣ 📂global
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂common
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂response
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ApiResponse.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜BaseEntity.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜SystemData.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜SystemDataRepository.java
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂config
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜QdrantConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜SecurityConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜SwaggerConfig.java
+ ┃ ┃ ┃ ┃ ┃ ┗ 📂jwt
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜JwtAuthenticationFilter.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜JwtService.java
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜JwtToken.java
+ ┃ ┃ ┃ ┃ ┗ 📜GuidanceApplication.java
+ ┃ ┗ 📂resources
+ ┃ ┃ ┣ 📂data
+ ┃ ┃ ┃ ┗ 📜courses.json
+ ┃ ┃ ┣ 📜application-dev.yml
+ ┃ ┃ ┣ 📜application-local.yml
+ ┃ ┃ ┗ 📜application.yml
+ ┗ 📂test
+ ┃ ┗ 📂java
+ ┃ ┃ ┗ 📂grit
+ ┃ ┃ ┃ ┗ 📂guidance
+ ┃ ┃ ┃ ┃ ┣ 📂domain
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂roadmap
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📂service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜CourseEmbeddingServiceTest.java
+ ┃ ┃ ┃ ┃ ┃ ┗ 📂user
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📂service
+ ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UsersCrawlingServiceTest.java
+ ┃ ┃ ┃ ┃ ┗ 📜GuidanceApplicationTests.java
+
+ </code>
+</pre>
+</details>
+
 # 🚀 How to Start
 #### 1. Clone The Repository
 ```
-
+https://github.com/2025-Engineering-Contest-Team-GRIT/Frontend.git
+https://github.com/2025-Engineering-Contest-Team-GRIT/Backend.git
 ```
 #### 2. ENV Setting
 - Backend/.env
 ```
-
+POSTGRES_DB=
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_URL=
+SPRING_PROFILES_ACTIVE=
+OPENAI_API_KEY=
 ```
 #### 3. Run Docker
 ```
@@ -164,4 +532,8 @@ yarn run dev
 <br>
 
 ## 👥 Member
--
+| Name | 최재현 | 김환희 | 변정원 | 김지훈 |
+|:---:|:---:|:---:|:---:|:---:|
+| Role | Team Leader, <br>Backend | Backend, DevOps | Backend | Frontend, Design |
+| GitHub | <a href="https://github.com/MacArthur17"><img src="http://img.shields.io/badge/MacArthur17-green?style=social&logo=github"/></a> | <a href="https://github.com/hwanh2"><img src="http://img.shields.io/badge/hwanh2-green?style=social&logo=github"/></a> | <a href="https://github.com/Yeeyahou"><img src="http://img.shields.io/badge/Yeeyahou-green?style=social&logo=github"/></a> | <a href="https://github.com/urous3814"><img src="http://img.shields.io/badge/urous3814-green?style=social&logo=github"/></a> |
+

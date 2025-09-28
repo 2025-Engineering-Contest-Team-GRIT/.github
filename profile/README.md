@@ -10,28 +10,73 @@
 <br>
 
 # 서비스 개요
+<img width="2156" height="1188" alt="image" src="https://github.com/user-attachments/assets/dffd71d2-6ef9-40cd-8d6e-af02bd4208bb" />
+
+<img width="2156" height="1188" alt="image" src="https://github.com/user-attachments/assets/a54a2045-c01f-4a1f-b479-188419b41784" />
+
+<img width="2156" height="1188" alt="image" src="https://github.com/user-attachments/assets/328906ec-25c5-48d8-bc45-f7e1a0e542a0" />
+
+<img width="2156" height="1188" alt="image" src="https://github.com/user-attachments/assets/901484d5-5be9-47b9-b46a-c9cf064cd0d2" />
 
 
 # Demo
 ### 로그인
 
-<br><br>
+<br><img width="1018" height="533" alt="image" src="https://github.com/user-attachments/assets/0f89b341-7d78-4de8-b757-68b17e889e9c" />
+<br>
 
 ### 대시보드
 
-<br><br>
+<br> 
+
+<img width="2554" height="1306" alt="image" src="https://github.com/user-attachments/assets/9267e96b-6c0d-4a8c-b52f-1e16f8dd3c44" />
+
+<br>
+
+### AI 추천 로드맵
+<br><img width="1018" height="546" alt="image" src="https://github.com/user-attachments/assets/060d1782-6fda-4e0c-8cec-b4de9a54072f" />
+
+<br>
 
 ### 이수현황
-<br><br>
+<br><img width="1018" height="546" alt="image" src="https://github.com/user-attachments/assets/9228d68c-de44-4b96-82dd-3bb7dd36d29d" />
+<br>
 
 ### 시간표
-<br><br>
+<br><img width="1018" height="546" alt="image" src="https://github.com/user-attachments/assets/09063102-ee3b-4f6c-b922-27b4f87505a1" />
+
+<br>
 
 ### 졸업요건
-<br><br>
+<br><img width="2040" height="1008" alt="image" src="https://github.com/user-attachments/assets/d97874f6-5be9-4b5b-bea8-eba5035110af" />
+
+<br>
 
 ### 졸업 시뮬레이션
-<br><br>
+
+1. 사용자가 지금까지 이수한 과목들과 현재 전공 이수학점을 보여줍니다.
+<img width="1018" height="546" alt="image" src="https://github.com/user-attachments/assets/94ac2d64-b7cf-4abd-bf03-4735ca41a865" />
+<br>
+2. 알고리즘을 통해 사용자의 트랙에 맞춰 선택할 과목이 전공선택인지 전공필수인지 보여줍니다.
+<br>
+<img width="1018" height="546" alt="image" src="https://github.com/user-attachments/assets/4789fff9-ab05-46b9-a448-a1eb773637e9" />
+<br>
+3-1. 전공 선택일 경우 1, 2트랙 중 사용자가 직접 선택할 수 있습니다.
+<br>
+<img width="1018" height="546" alt="image" src="https://github.com/user-attachments/assets/c6e4c271-030a-46cb-9322-886e97c0d4e0" />
+<br>
+3-2. 전공 필수일 경우 자동으로 해당 트랙에 선택됩니다.
+<br>
+<img width="1018" height="546" alt="image" src="https://github.com/user-attachments/assets/4d48577e-b25b-451d-b2fc-a0222d06e8ed" />
+<br>
+4. 과목의 트랙을 바꾸고 싶은 경우 변경 버튼을 통해 수정할 수 있습니다. 
+<br>
+<img width="1018" height="546" alt="image" src="https://github.com/user-attachments/assets/1e10b180-5b02-414d-8a30-c7c937c458a2" />
+<br>
+5. 졸업요건을 채울 경우 진행바는 초록색으로 변경됩니다. 이렇게 사용자는 졸업까지의 계획을 세우고 저장할 수 있습니다
+<br>
+<img width="1018" height="546" alt="image" src="https://github.com/user-attachments/assets/819370fa-8c7d-4c3a-a7b2-f1fb8c0551aa" />
+<br>
 
 ### Rag 아키텍처 (로드맵 생성 과정)
 <img width="605" height="272" alt="image" src="https://github.com/user-attachments/assets/ab75fb88-f2fb-41f4-a0dc-7432b065b6e7" />

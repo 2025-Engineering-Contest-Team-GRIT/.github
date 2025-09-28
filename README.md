@@ -1,5 +1,6 @@
-### <p align = center> 2025 Engineering Contest Team GRIT <p>
-# 한성 길라잡이
+### <p align = center> 🎊2025 Engineering Contest 동상🥉 <p>
+# 한성 길라잡이 - Team GRIT 
+
 <p align="center">
 <img width="511.5" height="319.5" alt="image" src="https://github.com/user-attachments/assets/8e592816-a355-4da2-b363-63df0e86b732" />
 </p>

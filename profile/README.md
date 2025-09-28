@@ -21,7 +21,7 @@
 <img width="2156" height="1188" alt="image" src="https://github.com/user-attachments/assets/18c63a8e-f6c6-4b98-9d5e-fde19c38f755" />
 
 
-# Demo 데모영상 https://www.youtube.com/watch?v=IMidmpOfmgI
+# Demo <blockquote>https://www.youtube.com/watch?v=IMidmpOfmgI</blockquote> 
 ### 로그인
 
 <br><img width="1018" height="533" alt="image" src="https://github.com/user-attachments/assets/0f89b341-7d78-4de8-b757-68b17e889e9c" />

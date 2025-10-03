@@ -1,4 +1,4 @@
-### <p align = center> 🎊2025 Engineering Contest 동상🥉 <p>
+### <p align = center> 🎊2025 제 21회 한성공학경진대회 동상🥉 <p>
 # 한성 길라잡이 - Team GRIT 
 
 <p align="center">
